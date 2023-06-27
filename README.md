@@ -14,6 +14,28 @@ voila! Your strongest distance is revealed.
 The world record times are stored in the database, but the user input is not;\
 it is used just for the calculation.
 
+Now for the juicy bit... The calculation itself is simple, but in the design\
+phase, in which I am currently, there are so many options.
+
+Chew on this:\
+The user interface where the user puts in their stroke, course (long or short),\
+gender, and time. Should they put in, say, all three distances for their breastroke,\
+then the calculator does its thing? Would we need to restrict what the user can put in?\
+Say, the restriction could be one stroke only, all distances of that stroke,\
+obviously only one course, gender and times. I feel a dropdown coming on... The \
+joy of thinking aloud in a README!
+
+Also, there are the data types to be considered. Text for stroke, smallint for\
+distance, course and gender could be text, but could be boolean? Time is the most\
+challenging, and indeed the most important data type. Trawling of the PostgreSQL\
+documentation hasn't yielded anything yet. Time seems to mean "time of day" rather\
+than "time it took to swim". I'll figure it out. Interval is equally unhelpful. I\
+need a quantity of time. Minutes, seconds and milliseconds. Three separate columns?\
+This is important because the right bits of user input need to speak to the right\
+bits of the database table.
+
+How is such a simple calculation such a mind stretcher? 😂
+
 I will be adding more and more races and distances over the coming weeks, but\
 I am starting with the breastroke, becuase it's the best, obviously!
 

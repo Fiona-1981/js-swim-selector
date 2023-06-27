@@ -6,5 +6,5 @@ CREATE TABLE events (
   distance smallint,
   course boolean,
   gender boolean,
-  result time,
+  result time
 );
