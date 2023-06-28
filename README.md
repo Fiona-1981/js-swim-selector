@@ -40,7 +40,8 @@ How is such a simple calculation such a mind stretcher? 😂
 I will be adding more and more races and distances over the coming weeks, but\
 I am starting with the breastroke, becuase it's the best, obviously!
 
-Update 28/06/2023: This is growing into a monster of possibilities.
+Update 28/06/2023:\
+This is growing into a monster of possibilities.
 
 
 
