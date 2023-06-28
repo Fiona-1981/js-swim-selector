@@ -1,5 +1,6 @@
 # Swim Selector
 
+27/06/2023\
 I originally started creating this in Java back in 2021 or 2022, but having\
 become rusty in Java this year, thought I'd get it running in a PERN app, then\
 perhaps try again in Java once my OU studies resume in October. And one can never\
@@ -29,7 +30,7 @@ Also, there are the data types to be considered. Text for stroke, smallint for\
 distance, course and gender could be text, but could be boolean? Time is the most\
 challenging, and indeed the most important data type. Trawling of the PostgreSQL\
 documentation hasn't yielded anything yet. Time seems to mean "time of day" rather\
-than "time it took to swim". I'll figure it out. Interval is equally unhelpful. I\
+than "time it took". I'll figure it out. Interval is equally unhelpful. I\
 need a quantity of time. Minutes, seconds and milliseconds. Three separate columns?\
 This is important because the right bits of user input need to speak to the right\
 bits of the database table.
@@ -38,6 +39,10 @@ How is such a simple calculation such a mind stretcher? 😂
 
 I will be adding more and more races and distances over the coming weeks, but\
 I am starting with the breastroke, becuase it's the best, obviously!
+
+Update 28/06/2023: This is growing into a monster of possibilities.
+
+
 
 
 
