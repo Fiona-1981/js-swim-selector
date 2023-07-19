@@ -37,11 +37,14 @@ bits of the database table.
 
 How is such a simple calculation such a mind stretcher? 😂
 
-I will be adding more and more races and distances over the coming weeks, but\
-I am starting with the breastroke, because it's the best, obviously!
+Update 19/07/2023: I have added the breaststroke into my database after finally\
+plucking up the courage to experiment with the "time" data type. It works, and\
+it's not scary.
 
-Update 28/06/2023:\
-This is growing into a monster of possibilities.
+<img width="674" alt="Screenshot 2023-07-19 at 17 30 49" src="https://github.com/Fiona-1981/js-swim-selector/assets/82163486/3875f577-2b56-48db-8a51-93f906a69a11">
+
+
+
 
 
 
