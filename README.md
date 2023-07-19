@@ -26,6 +26,8 @@ Say, the restriction could be one stroke only, all distances of that stroke,\
 obviously only one course, gender and times. I feel a dropdown coming on... The \
 joy of thinking aloud in a README!
 
+Update 19/07/2023: I will indeed be introducing dropdowns to the front end.
+
 Also, there are the data types to be considered. Text for stroke, smallint for\
 distance, course and gender could be text, but could be boolean? Time is the most\
 challenging, and indeed the most important data type. Trawling of the PostgreSQL\
@@ -35,13 +37,14 @@ need a quantity of time. Minutes, seconds and milliseconds. Three separate colum
 This is important because the right bits of user input need to speak to the right\
 bits of the database table.
 
-How is such a simple calculation such a mind stretcher? 😂
-
 Update 19/07/2023: I have added the breaststroke into my database after finally\
 plucking up the courage to experiment with the "time" data type. It works, and\
 it's not scary.
 
 <img width="674" alt="Screenshot 2023-07-19 at 17 30 49" src="https://github.com/Fiona-1981/js-swim-selector/assets/82163486/3875f577-2b56-48db-8a51-93f906a69a11">
+
+
+
 
 
 
